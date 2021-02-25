@@ -1,0 +1,56 @@
+00:31:12.089 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+00:31:12.748 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+00:32:16.209 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+00:32:16.209 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+00:32:19.722 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+00:32:20.825 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+00:32:22.991 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+00:32:23.040 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+00:32:33.248 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+00:32:33.899 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+00:45:51.728 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+00:45:51.728 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+00:45:55.270 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+00:46:02.606 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+00:46:04.824 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+00:46:04.851 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+00:46:14.917 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+00:46:15.580 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+00:48:11.468 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+00:48:11.471 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+00:48:15.108 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+00:48:16.129 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+00:48:18.314 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+00:48:18.377 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+00:48:28.432 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+00:48:29.088 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+00:50:19.087 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+00:50:19.090 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+00:50:22.590 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+00:50:24.294 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+00:50:26.450 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+00:50:26.471 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+00:50:36.686 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+00:50:37.341 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+10:44:29.465 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+10:44:29.488 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+10:44:33.692 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+10:44:35.466 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+10:44:37.745 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+10:44:37.774 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+10:44:47.891 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+10:44:48.550 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+15:06:17.377 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+15:06:17.393 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+15:06:21.262 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+15:06:22.572 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+15:06:24.730 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+15:06:24.762 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+15:06:34.853 [main] INFO  com.resources.base.BaseClass - Login successfully executed!!
+15:06:45.612 [main] INFO  com.resources.base.BaseClass - Test execution is completed!!!
+15:07:44.494 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+15:07:44.494 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+15:07:48.061 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+15:07:49.059 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+15:07:51.219 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+15:07:51.234 [main] INFO  com.resources.base.BaseClass - Inside login test!!!

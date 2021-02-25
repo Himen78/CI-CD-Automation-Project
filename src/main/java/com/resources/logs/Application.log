@@ -1,0 +1,4 @@
+10:58:16.970 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+10:58:19.543 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+10:58:19.671 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+10:58:19.707 [main] INFO  com.resources.base.BaseClass - Inside login test!!!

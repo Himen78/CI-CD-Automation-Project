@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T05:28:39.696Z",
+        "line": 3,
+        "name": "Home Page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5029671900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on landing page",
+            "match": {
+              "location": "com.resources.stepdefinations.stepDefinition.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95926200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login into application with username and password",
+            "match": {
+              "location": "com.resources.stepdefinations.stepDefinition.user_login_into_application_with_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 703541700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "com.resources.stepdefinations.stepDefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 671102200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "com.resources.stepdefinations.stepDefinition.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/resources/features/Login.feature",
+    "tags": []
+  }
+]

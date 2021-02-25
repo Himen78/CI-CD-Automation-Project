@@ -1,0 +1,74 @@
+[
+  {
+    "source": "User is on landing page",
+    "steps": [
+      {
+        "name": "User is on landing page",
+        "aggregatedDurations": {
+          "median": 5.0296719,
+          "average": 5.0296719
+        },
+        "durations": [
+          {
+            "duration": 5.0296719,
+            "location": "file:///E:/Automation%20Projects/AutomationArchitectProject/src/test/java/com/resources/features/Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User login into application with username and password",
+    "steps": [
+      {
+        "name": "User login into application with username and password",
+        "aggregatedDurations": {
+          "median": 0.0959262,
+          "average": 0.0959262
+        },
+        "durations": [
+          {
+            "duration": 0.0959262,
+            "location": "file:///E:/Automation%20Projects/AutomationArchitectProject/src/test/java/com/resources/features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Home page is populated",
+    "steps": [
+      {
+        "name": "Home page is populated",
+        "aggregatedDurations": {
+          "median": 0.7035417,
+          "average": 0.7035417
+        },
+        "durations": [
+          {
+            "duration": 0.7035417,
+            "location": "file:///E:/Automation%20Projects/AutomationArchitectProject/src/test/java/com/resources/features/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Cards are displayed",
+    "steps": [
+      {
+        "name": "Cards are displayed",
+        "aggregatedDurations": {
+          "median": 0.6711022,
+          "average": 0.6711022
+        },
+        "durations": [
+          {
+            "duration": 0.6711022,
+            "location": "file:///E:/Automation%20Projects/AutomationArchitectProject/src/test/java/com/resources/features/Login.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
