@@ -58,7 +58,7 @@ public class stepDefinition {
         }else if(config.getProperty("browser").equals("firefox")){
 
 //            System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver.exe");
-            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Driver_Ubuntu/geckodriver");
+            System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Driver_Ubuntu/geckodriver");
             webDriver = new FirefoxDriver();
             log.info("Firefox is launched!!!");
 
