@@ -74,15 +74,15 @@ public class BaseClass {
         }
     }
 
-    public String getScreenshotPath(String TestCaseName) throws IOException {
-        TakesScreenshot screenshot = (TakesScreenshot) webDriver;
-        String dateName = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
-        File source = screenshot.getScreenshotAs(OutputType.FILE);
-        String destPath = System.getProperty("user.dir")+"\\Reports\\Screenshots\\"+TestCaseName+dateName+".png";
-        File file = new File(destPath);
-        FileUtils.copyFile(source, file);
-        return destPath;
-    }
+//    public String getScreenshotPath(String TestCaseName) throws IOException {
+//        TakesScreenshot screenshot = (TakesScreenshot) webDriver;
+//        String dateName = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
+//        File source = screenshot.getScreenshotAs(OutputType.FILE);
+//        String destPath = System.getProperty("user.dir")+"\\Reports\\Screenshots\\"+TestCaseName+dateName+".png";
+//        File file = new File(destPath);
+//        FileUtils.copyFile(source, file);
+//        return destPath;
+//    }
 
     @AfterSuite
     public void tearDown(){

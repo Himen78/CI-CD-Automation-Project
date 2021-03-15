@@ -29,11 +29,11 @@ public class Listeners extends BaseClass implements ITestListener {
 
         test.fail(result.getThrowable());
 
-        try {
-            test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName()),result.getMethod().getMethodName());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName()),result.getMethod().getMethodName());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     public void onTestSkipped(ITestResult result) {
