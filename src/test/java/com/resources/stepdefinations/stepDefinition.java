@@ -53,7 +53,7 @@ public class stepDefinition {
 //            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
             System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Driver_Ubuntu/chromedriver");
             webDriver = new ChromeDriver();
-            log.info("Chrome is launched!!!");
+            log.info("Chrome is launched!");
 
         }else if(config.getProperty("browser").equals("firefox")){
 
