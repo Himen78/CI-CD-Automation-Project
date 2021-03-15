@@ -1,0 +1,58 @@
+17:32:40.952 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:32:41.213 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:33:36.208 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:33:36.211 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:33:37.833 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:33:42.594 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:33:42.722 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:33:42.742 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:33:44.803 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:33:45.048 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:37:42.747 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:37:42.752 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:37:44.470 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:37:48.837 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:37:48.972 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:37:48.992 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:37:51.414 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:37:51.715 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:50:44.931 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:50:44.936 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:50:46.691 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:50:51.499 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:50:51.632 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:50:51.656 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:50:53.979 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:50:54.208 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+15:16:24.011 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+15:16:24.024 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+15:16:25.890 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+15:16:30.549 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+15:16:30.735 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+15:16:30.790 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+15:16:36.404 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+15:16:36.674 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+15:20:54.963 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+15:20:54.963 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+15:20:56.712 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+15:21:01.160 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+15:21:01.297 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+15:21:01.321 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+15:21:07.435 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+15:21:07.677 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+15:58:37.668 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+15:58:37.668 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+15:58:39.241 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+15:58:45.025 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+15:58:45.149 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+15:58:45.164 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+15:58:51.872 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+15:58:52.084 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+16:24:38.983 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+16:24:38.983 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+16:24:40.714 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+16:24:45.043 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+16:24:45.173 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+16:24:45.189 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+16:24:51.040 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+16:24:51.304 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..

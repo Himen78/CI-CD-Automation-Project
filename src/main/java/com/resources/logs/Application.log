@@ -1,4 +1,26 @@
-10:58:16.970 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
-10:58:19.543 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
-10:58:19.671 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
-10:58:19.707 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+14:56:10.596 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+14:56:12.971 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+14:56:13.166 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+11:13:57.892 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+11:13:57.912 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+11:14:02.096 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+11:14:08.775 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+11:14:08.922 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+11:14:08.937 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:14:11.137 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+11:15:28.152 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+11:15:28.152 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+11:15:29.834 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+11:15:32.621 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+11:15:32.772 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+11:15:32.783 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:15:34.586 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+11:15:39.642 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+11:18:15.714 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+11:18:15.714 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+11:18:17.503 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+11:18:20.759 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+11:18:20.892 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+11:18:20.904 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:18:23.248 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+11:18:28.293 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..

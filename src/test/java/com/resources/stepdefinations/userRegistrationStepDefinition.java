@@ -1,42 +1,26 @@
 package com.resources.stepdefinations;
 
+
 import com.resources.base.BaseClass;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.Reporter;
-import org.testng.annotations.BeforeSuite;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 @RunWith(Cucumber.class)
-public class stepDefinition {
+public class userRegistrationStepDefinition extends BaseClass {
 
-    public static WebDriver webDriver;
-    public static Properties config = new Properties();
-    public static Properties object = new Properties();
-    public static FileInputStream fis;
-    public static Logger log = LogManager.getLogger(BaseClass.class.getName());
-
-
-    @Before
-    public void setUP() throws IOException {
+    @Given("^User is on landing a home page$")
+    public void user_is_on_landing_a_home_page() throws Throwable {
 
         if(webDriver==null){
             fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/resources/properties/config.properties");
@@ -61,23 +45,6 @@ public class stepDefinition {
             log.info("Firefox is launched!!!");
 
         }
-        System.out.println("Setup method");
-
-    }
-
-    @After
-    public void tearDown(){
-
-        if(webDriver!=null) {
-            webDriver.quit();
-        }
-        System.out.println("Teardown method");
-    }
-
-
-    @Given("User is on landing page")
-    public void user_is_on_landing_page() throws IOException {
-
         webDriver.get(config.getProperty("browserURL"));
         log.info("Navigated to:"+config.getProperty("browserURL"));
         webDriver.manage().window().maximize();
@@ -86,34 +53,42 @@ public class stepDefinition {
 
     }
 
-    @When("User login into application with username and password")
-    public void user_login_into_application_with_username_and_password() {
+    @When("^User navigate to sign up page and enter the required details for sign up$")
+    public void user_navigate_to_sign_up_page_and_enter_the_required_details_for_sign_up() throws Throwable {
 
         log.info("Inside login test!!!");
         webDriver.findElement(By.xpath(object.getProperty("signUpAndLoginButton"))).click();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        webDriver.findElement(By.xpath(object.getProperty("userName"))).sendKeys(object.getProperty("userEmail"));
+        webDriver.findElement(By.xpath(object.getProperty("createNewAccount"))).click();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        webDriver.findElement(By.xpath(object.getProperty("password"))).sendKeys(object.getProperty("userPassword"));
+        webDriver.findElement(By.xpath(object.getProperty("firstName"))).sendKeys("Himen");
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        webDriver.findElement(By.xpath(object.getProperty("submitButton"))).click();
-        Reporter.log("Login successfully!!");
+        webDriver.findElement(By.xpath(object.getProperty("lastName"))).sendKeys("Patel");
+        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        webDriver.findElement(By.xpath(object.getProperty("userEmailAddress"))).sendKeys("himen@gmail.com");
+        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        webDriver.findElement(By.xpath(object.getProperty("createAPassword"))).sendKeys("himen@78");
+        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        webDriver.findElement(By.xpath(object.getProperty("signUpButton"))).click();
+        log.info("User registration is successfully.!!!");
     }
 
-    @Then("Home page is populated")
-    public void home_page_is_populated() throws InterruptedException {
+    @Then("^User is successfully registered$")
+    public void user_is_successfully_registered() throws Throwable {
 
         log.info("Home Page is populated.");
-        Thread.sleep(5000);
         String getFullUserName = webDriver.findElement(By.xpath(object.getProperty("userFullName"))).getText();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         Assert.assertTrue(getFullUserName.equalsIgnoreCase("Himen Patel"));
         log.info("User name is verified successfully..");
+
     }
 
-    @And("User is logout successfully")
-    public void user_is_logout_successfully() throws InterruptedException {
-
+    @And("^Navigate to Home page$")
+    public void navigate_to_home_page() throws Throwable {
+        if(webDriver!=null) {
+            webDriver.quit();
+        }
     }
 
 }

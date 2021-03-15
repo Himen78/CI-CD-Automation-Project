@@ -1,5 +1,8 @@
 com\resources\stepdefinations\stepDefinition.class
 com\resources\testcases\BankManagerLoginTestCase.class
 com\resources\base\BaseClass.class
-com\resources\cucumberclass\TestRunner.class
 com\resources\testcases\AddCustomerTest.class
+com\resources\base\Listeners.class
+com\resources\stepdefinations\userRegistrationStepDefinition.class
+com\resources\base\ExtendsReportClass.class
+com\resources\cucumberclass\TestRunner.class

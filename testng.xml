@@ -5,22 +5,9 @@
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.resources.base.Listeners"/>
   </listeners>
 
-
-<!--  <test name="Add Bank manager test">-->
-<!--    <classes>-->
-<!--      <class name="com.resources.testcases.BankManagerLoginTestCase">-->
-<!--      </class>-->
-<!--    </classes>-->
-<!--  </test>-->
-
-<!--  <test name="Add customer test">-->
-<!--    <classes>-->
-<!--      <class name="com.resources.testcases.AddCustomerTest"/>-->
-<!--    </classes>-->
-<!--  </test>-->
-  
   <test name="Run with cucumber">
     <classes>
       <class name="com.resources.cucumberclass.TestRunner"/>

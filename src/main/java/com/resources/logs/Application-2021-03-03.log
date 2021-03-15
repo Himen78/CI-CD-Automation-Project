@@ -1,0 +1,58 @@
+10:58:16.970 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+10:58:19.543 [main] INFO  com.resources.base.BaseClass - Navigated to:http://www.way2automation.com/angularjs-protractor/banking/#/login
+10:58:19.671 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+10:58:19.707 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:33:00.745 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+11:33:00.750 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+11:33:02.360 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+11:33:06.556 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+11:33:06.695 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+11:33:06.725 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:33:08.976 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+11:41:41.865 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+11:41:41.865 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+11:41:43.716 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+11:41:47.033 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+11:41:47.175 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+11:41:47.216 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+11:41:49.273 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+11:41:49.745 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+13:24:33.014 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+13:24:33.039 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+13:24:35.224 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+13:24:38.005 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+13:24:38.147 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+13:24:38.171 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+13:24:40.813 [main] INFO  com.resources.base.BaseClass - User registration is successfully.!!!
+13:24:40.815 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+13:24:41.200 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:22:04.436 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:22:04.441 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:22:06.221 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:22:10.907 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:22:11.062 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:22:11.081 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:22:13.686 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:22:13.899 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:30:37.736 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:30:37.740 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:30:39.436 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:30:44.197 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:30:44.344 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:30:44.362 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:30:46.864 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:30:47.080 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:31:29.467 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:31:29.472 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:31:31.207 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:31:35.690 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:31:35.819 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:31:35.842 [main] INFO  com.resources.base.BaseClass - Inside login test!!!
+17:31:38.422 [main] INFO  com.resources.base.BaseClass - Home Page is populated.
+17:31:38.640 [main] INFO  com.resources.base.BaseClass - User name is verified successfully..
+17:32:32.458 [main] INFO  com.resources.base.BaseClass - Config file is loaded!!!
+17:32:32.461 [main] INFO  com.resources.base.BaseClass - Object file is loaded!!!
+17:32:34.162 [main] INFO  com.resources.base.BaseClass - Chrome is launched!!!
+17:32:38.662 [main] INFO  com.resources.base.BaseClass - Navigated to:http://202.131.117.92:7097/website/
+17:32:38.799 [main] INFO  com.resources.base.BaseClass - Browser is maximized!!!
+17:32:38.823 [main] INFO  com.resources.base.BaseClass - Inside login test!!!

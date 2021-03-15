@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.690">
+           time="14.121">
   <properties />
   
   
-            <testcase name="runScenario" time="6.690" classname="com.resources.cucumberclass.TestRunner" />
+            <testcase name="runScenario" time="14.121" classname="com.resources.cucumberclass.TestRunner" />
       
 </testsuite>

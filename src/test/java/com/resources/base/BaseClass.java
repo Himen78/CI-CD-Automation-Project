@@ -2,18 +2,22 @@ package com.resources.base;
 
 
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -68,6 +72,16 @@ public class BaseClass {
         }catch (NoSuchElementException e){
             return false;
         }
+    }
+
+    public String getScreenshotPath(String TestCaseName) throws IOException {
+        TakesScreenshot screenshot = (TakesScreenshot) webDriver;
+        String dateName = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
+        File source = screenshot.getScreenshotAs(OutputType.FILE);
+        String destPath = System.getProperty("user.dir")+"\\Reports\\Screenshots\\"+TestCaseName+dateName+".png";
+        File file = new File(destPath);
+        FileUtils.copyFile(source, file);
+        return destPath;
     }
 
     @AfterSuite
