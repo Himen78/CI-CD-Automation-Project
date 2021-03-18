@@ -54,7 +54,12 @@ public class stepDefinition {
 
             WebDriverManager.chromedriver().setup();
             ChromeOptions opt = new ChromeOptions();
-            opt.setHeadless(true);
+            opt.addArguments("--window-size=1920,1080");
+            opt.addArguments("--start-maximized");
+            opt.addArguments("--headless");
+            opt.addArguments("--no-sandbox");
+            opt.addArguments("--disable-dev-shm-usage");
+//            opt.setHeadless(true);
             webDriver = new ChromeDriver(opt);
         }
         System.out.println("Setup method");
