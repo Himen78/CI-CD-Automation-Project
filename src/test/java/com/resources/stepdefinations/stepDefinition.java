@@ -8,12 +8,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -50,21 +52,12 @@ public class stepDefinition {
 
         if(config.getProperty("browser").equals("chrome")){
 
-//            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
-            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/Driver_Ubuntu/chromedriver");
-            webDriver = new ChromeDriver();
-            log.info("Chrome is launched!");
-
-        }else if(config.getProperty("browser").equals("firefox")){
-
-//            System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver.exe");
-            System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Driver_Ubuntu/geckodriver");
-            webDriver = new FirefoxDriver();
-            log.info("Firefox is launched!!!");
-
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions opt = new ChromeOptions();
+            opt.setHeadless(true);
+            webDriver = new ChromeDriver(opt);
         }
         System.out.println("Setup method");
-
     }
 
     @After
